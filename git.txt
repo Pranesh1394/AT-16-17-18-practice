@@ -133,8 +133,18 @@ git add remote origin 'https/ssh'
 git branch -M main
 git push -u origin main
 
+git clone ---remote to local
 
-111
-222
-333
-444
+git branch
+git branch A1 ---new branch
+git branch -d A1 ---delete branch
+git checkout A1 ---switch branch
+
+
+git pull
+
+git fetch
+git diff
+git stash ---switch brancch without commit
+git rm
+git rebase
