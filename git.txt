@@ -148,3 +148,30 @@ git diff
 git stash ---switch brancch without commit
 git rm
 git rebase
+
+how to merge?
+1. git branch custom_branch
+2. git switch custom_branch / git checkout custom_branch
+3. git add file
+4. git commit -m 'custom_branch_commit'
+5. git push -u origin custom_branch
+6. raise the PR request in custom_branch
+7. wait for PR approval
+8. close the PULL REQUEST
+9. merge with custom to main
+10. git checkout main
+11. git merge custom_branch
+12. git push origin main
+
+
+
+Interview questions:
+
+1. What is Git init?
+2. How to fetch the branch in git?
+3. How to merge one branch to another branch in git?
+4. What is diff between custom branch and main branch?
+5. How to remove a file in git?
+6. What is the diff between git clone and git pull?
+7. What is git rebase or Stash?
+8. How to resolve the merge conflict?
